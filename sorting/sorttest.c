@@ -11,7 +11,7 @@
 int
 main(int argc, char **argv){
 
-	int mode;
+	int mode=0;
 	char buf[4098];
 	int size = INIT_SIZE;
 	int *arr = malloc(sizeof(int) * size);
